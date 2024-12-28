@@ -8,6 +8,8 @@
   ],
   "plugins": ["import"],
   "rules": {
+    "tailwindcss/classnames-order": "off",
+    "tailwindcss/no-custom-classname": "off",
     "import/order": [
       "error",
       {
