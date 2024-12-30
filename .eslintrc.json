@@ -10,9 +10,11 @@
   "rules": {
     "tailwindcss/classnames-order": "off",
     "tailwindcss/no-custom-classname": "off",
+
     "import/order": [
       "error",
       {
+        "newlines-between": "never", // لا تطلب سطر فارغ بين مجموعات الاستيراد
         "groups": [
           "builtin",
           "external",
@@ -21,7 +23,6 @@
           "index",
           "object"
         ],
-        "newlines-between": "always",
         "pathGroups": [
           {
             "pattern": "@app/**",
